@@ -13,8 +13,8 @@ console.log("Emri im eshte:",name);
 
 consoleName("Shkurte");
 
-function Paraqitja (Emri, Mbiemri,Vendlindja, Universiteti)
+function Paraqitja (Emri,Vendlindja, Universiteti)
 {
 	console.log ("");
 }
-Paraqitja(Shkurte Esati, Ferizaj, FIEK);
+Paraqitja("Shkurte Esati","Ferizaj", "FIEK");
