@@ -1,6 +1,6 @@
 
 
-console.log(5+6);
+ /*console.log(5+6);
 console.log("Hello World");
 window.alert("You visited Techstituion");
 
@@ -17,4 +17,4 @@ function Paraqitja (Emri,Vendlindja, Universiteti)
 {
 	console.log ("");
 }
-Paraqitja("Shkurte Esati","Ferizaj", "FIEK");
+Paraqitja("Shkurte Esati","Ferizaj", "FIEK"); */
