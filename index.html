@@ -16,8 +16,7 @@
 		<script  type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
 		
         <script type="text/javascript" src="js/script.js"></script>
-   
-      
+        
      </head>
 
      <body>
@@ -27,7 +26,7 @@
          <div class="row">
           <div class="col-xs-offset-3 col-xs-8">
 
-		    <h3> Forma e regjistrimit te pikave kufitare </h3>
+		    <h3 id="forma-e-regjistrimit"> Forma e regjistrimit të pikave kufitare </h3>
           
           <form class="form-horizontal" id="border-wait-form">
 
@@ -35,33 +34,33 @@
 
               <!-- form group eshte e definuar brenda boostrap -->
 			  <div class="form-group form-style-group">
-			  	<hr></hr>
+			  <hr></hr>
                 <label for="pika-kufitare" class="control-label col-xs-3">Pika kufitare</label>
 
 			      <div class="form-group">
                     <!-- <label for="pikat-kufitare">Zgjedh piken kufitare</label> -->
-                    <select id="pika-kufitare" class="control-label col-xs-3" name="pika-kufitare"> 
-                      <option>Zgjedh piken kufitare</option>
-                      <option value="vermice">Vermice</option>
-                      <option value="qafe-e-prushit">Qafe e Prushit</option>
-                      <option value="qafe-e-morines">Qafe e Morines</option>
-                      <option value="kulle">Kulle</option>
-                      <option value="bernjak">Bernjak</option>
+                    <select id="pika-kufitare" class="control-label col-xs-3.7" name="pika-kufitare"> 
+                      <option>Zgjedh pikën kufitare</option>
+                      <option value="vermice">Vërmicë</option>
+                      <option value="qafe-e-prushit">Qafë e Prushit</option>
+                      <option value="qafe-e-morines">Qafë e Morines</option>
+                      <option value="kulle">Kullë</option>
+                      <option value="bernjak">Bërnjak</option>
                       <option value="jarinje">Jarinje</option>
-                      <option value="merdare">Merdare</option>
-                      <option value="mutivode">Mutivode</option>
-                      <option value="dheu-i-bardhe">Dheu i Bardhe</option>
-                      <option value="muqibabe">Muqibabe</option>
+                      <option value="merdare">Merdarë</option>
+                      <option value="mutivode">Mutivodë</option>
+                      <option value="dheu-i-bardhe">Dheu i bardhë</option>
+                      <option value="muqibabe">Muqibabë</option>
                       <option value="hani-i-elezit">Hani i Elezit</option>
-                      <option value="glloboqice">Glloboqice</option>
+                      <option value="glloboqice">Glloboqicë</option>
                     </select>
                   </div> 
 			  </div>
 
+               <hr></hr>
                <p>Hyrje</p>
 
 			  <div class="form-group">
-			 	<hr></hr>
 
 				<label type="text" for="min" class="control-label col-xs-3" name="hyrje-min" >Minimum</label>
 				    <div class="col-xs-3">
@@ -95,12 +94,15 @@
                   </div>
                   <span style="margin-left:-10px;">minuta</span>
                 </div>
-		       	  
+	
+	              <hr></hr>	
+
+
 		       	  <p>Hyrje</p>
 
 			<div class="form-group">
 
-                    <hr></hr>
+
 				<label type="text" for="min" class="control-label col-xs-3" name="hyrje-min" >Minimum</label>
 				    <div class="col-xs-3">
 				      <input type="number"  min="0" class="form-control" id="hyrje-min-metra">
@@ -117,10 +119,8 @@
 			    </div>
 			  
 			  <p>Dalje</p>
-			  <div class="form-group">
-				
-				
-				
+			  <div class="form-group">				
+
 				<label type="text" for="min" class="control-label col-xs-3" name="dalje-metra-min" >Minimum</label>
 				   <div class="col-xs-3">
 				     <input type="number"  min="0" id="dalje-min-metra" class="form-control">

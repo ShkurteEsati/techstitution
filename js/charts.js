@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 Highcharts.chart('container', {
     chart: {
         plotBackgroundColor: null,
@@ -8,7 +8,7 @@ Highcharts.chart('container', {
         type: 'pie'
     },
     title: {
-        text: 'Browser market shares January, 2015 to May, 2015'
+        text: 'Te dhenat per vonesen ne kolona per vitin 2017'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -30,24 +30,40 @@ Highcharts.chart('container', {
         name: 'Brands',
         colorByPoint: true,
         data: [{
-            name: 'IE',
-            y: 56.33
+            name: 'Janar',
+            y: 0.9
         }, {
-            name: 'Chrome',
-            y: 24.03,
-            sliced: true,
-            selected: true
+            name: 'Shkurt',
+            y: 0.8
         }, {
-            name: 'Firefox',
-            y: 10.38
+            name: 'Mars',
+            y: 0.2
         }, {
-            name: 'Safari',
-            y: 4.77
+            name: 'Prill',
+            y: 0.56
         }, {
-            name: 'Opera',
+            name: 'Maj',
             y: 0.91
         }, {
-            name: 'Other',
+            name: 'Qershor',
+            y: 0.99
+        }, {
+            name: 'Korrik',
+            y: 43.25
+         }, {
+            name: 'Gusht',
+            y: 45.36
+         }, {
+            name: 'Shtator',
+            y: 0.1
+         }, {
+            name: 'Tetor',
+            y: 0.1
+         }, {
+            name: 'Nentor',
+            y: 0.1
+         }, {
+            name: 'Dhjetor',
             y: 0.2
         }]
     }]
